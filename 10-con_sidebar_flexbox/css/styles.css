@@ -46,6 +46,17 @@ p {
     font-weight: bold;
     text-transform: uppercase;
 }
-
-
 /** CODIGO AQUI **/
+@media (min-width: 768px) {
+    .con-sidebar{
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+    aside{
+        flex: 1; /* Factor de crecimiento */
+    }
+    article{
+        flex: 3;
+    }
+}
